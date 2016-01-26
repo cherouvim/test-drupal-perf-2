@@ -22,10 +22,10 @@ function test_perf_2_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
-        'region' => 'sidebar_first',
+        'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'bartik',
-        'weight' => -10,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
@@ -51,7 +51,7 @@ function test_perf_2_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'bartik',
-        'weight' => -9,
+        'weight' => 0,
       ),
       'seven' => array(
         'region' => '',
